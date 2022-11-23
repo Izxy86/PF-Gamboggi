@@ -1,0 +1,38 @@
+@mixin anclas {
+    text-decoration: none;
+    color: $color-fuentes;
+    font-size: 3rem;
+}
+
+.encabezado {
+    flex-direction: row;
+    justify-content: end;
+    padding: 0rem ;
+    height: 10rem;
+    font-size: 2rem;
+    .tituloPrincipal{
+        @include anclas;
+        i{
+            font-size: 3rem;
+            color: $color-botones;
+           
+        }
+        h1{
+            display: inline-block;
+            color: $color-fuentes;
+            font-size: 4rem;
+            font-weight: 700;
+        }
+    }
+}
+.container-fluid header nav ul li a{
+    color: $color-botones !important;
+    
+    
+    
+    
+}
+
+
+
+

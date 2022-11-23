@@ -1,0 +1,27 @@
+@mixin anclas {
+    text-decoration: none;
+    color: $color-fuentes;
+    font-size: 1,5rem;
+    align-items:center;
+}
+
+footer{
+    ul{
+        display: flex;
+        list-style-type: none;
+        
+        
+
+        li{
+            margin-right: 3rem;
+            a{
+                @include anclas;
+                transition: all 0.3s ease;
+
+                &:hover{
+                    color: $color-fuentes-secundario;
+                }
+            }
+        }
+    }
+}
