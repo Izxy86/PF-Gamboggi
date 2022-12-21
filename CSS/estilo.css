@@ -104,10 +104,10 @@ footer ul li a:hover {
 
 .hero2 {
   width: 100%;
-  height: calc(50vh - 20rem);
+  height: calc(50vh - 30rem);
   position: relative;
   display: inline-block;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 .introGaleria {
@@ -186,6 +186,19 @@ footer ul li a:hover {
   font-size: 4rem;
   font-size: 700;
   text-align: center;
+}
+
+.imagenyo {
+  border-radius: 1rem;
+  padding: 0.4rem;
+  max-width: 100%;
+  height: 550px;
+  transition: all 0.3s ease;
+  filter: grayscale(75%);
+}
+.imagenyo:hover {
+  transform: scale(1.03);
+  filter: grayscale(0%);
 }
 
 .form {

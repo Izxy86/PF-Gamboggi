@@ -84,3 +84,16 @@
     }
 }
 
+.imagenyo{
+    border-radius: 1rem;
+    padding: 0.4rem;
+    max-width: 100%;
+    height: 550px;
+    transition: all 0.3s ease;
+    filter: grayscale(75%);
+
+    &:hover{
+        transform: scale(1.03);
+        filter: grayscale(0%);
+    }
+}
