@@ -15,6 +15,7 @@ html body {
   padding: 0rem;
   height: 10rem;
   font-size: 2rem;
+  margin-bottom: 15rem;
 }
 .encabezado .tituloPrincipal {
   text-decoration: none;
@@ -139,20 +140,6 @@ footer ul li a:hover {
   filter: grayscale(75%);
 }
 .imagenGaleria:hover {
-  transform: scale(1.03);
-  filter: grayscale(0%);
-}
-
-.imagenGaleria2 {
-  border-radius: 1rem;
-  padding: 0.4rem;
-  margin-bottom: 3rem;
-  max-width: 100%;
-  height: auto;
-  transition: all 0.3s ease;
-  filter: grayscale(75%);
-}
-.imagenGaleria2:hover {
   transform: scale(1.03);
   filter: grayscale(0%);
 }

@@ -6,10 +6,11 @@
 
 .encabezado {
     flex-direction: row;
-    justify-content: end;
+    justify-content:end;
     padding: 0rem ;
     height: 10rem;
     font-size: 2rem;
+    margin-bottom: 15rem;
     .tituloPrincipal{
         @include anclas;
         i{
